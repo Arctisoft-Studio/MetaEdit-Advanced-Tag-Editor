@@ -26,6 +26,7 @@
 - **Lyrics, Chapters, and Video Metadata:** Search and stage lyrics, edit supported chapter structures, and work with contextual video fields.
 - **Loudness and ReplayGain:** Measure decoded audio and stage ReplayGain 2 track and album values without normalizing or re-encoding it.
 - **Persistent Libraries and Layouts:** Index chosen folders locally, create reusable Library and editor layouts, and save field sets and container mappings.
+- **Auto Tag Library:** Point MetaEdit at a whole collection; it groups the files into albums, identifies every album on MusicBrainz, maps each file to its track and stages reliable albums without further input.
 - **Delivery Check:** Check files against a delivery profile for a library, a release master, broadcast or an audiobook, and save the findings as a report.
 - **Studio Automation:** Run versioned dry-run, commit, watch-folder, and redacted-diagnostics jobs from `MetaEdit.Automation.exe`.
 - **Free and Premium:** The free edition is the complete editor. Premium applies the studio workflows and is described under [Editions](#editions).
@@ -166,9 +167,10 @@ MetaEdit Plus has a free edition and a Premium edition in one installation. The 
 | Auto Tag for single files, Text Tools, filename converters, import and export, lyrics | Included | Included |
 | Library Health and duplicate review | Included | Included |
 | Auto Tag for whole releases (Batch Mode) | Identify and review | Stage results |
+| Auto Tag Library: a whole collection grouped into albums and identified unattended | Identify and review | Stage results |
 | Rule Studio | Build and preview | Stage results |
 | Clean & Organize | Analyse and review | Commit the plan |
-| Delivery Check | Music library profile | All profiles and report |
+| Delivery Check | Music library profile | All profiles, your own profiles and report |
 | ReplayGain loudness | Measure and review | Stage values |
 | Chapter Editor | Inspect and validate | Write chapters |
 | Container mapping profiles | Standard mapping | Own profiles |
