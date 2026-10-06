@@ -7,7 +7,7 @@
   <b>Work locally with complete staging, recovery, artwork, analysis, and batch workflows.</b>
 </p>
 <p align="center">
-  <a href="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/releases"><img src="https://img.shields.io/github/v/release/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor?include_prereleases&style=flat-square&color=CD853F" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Freeware-green?style=flat-square" alt="License"></a>&nbsp;&nbsp;<a href="https://dotnet.microsoft.com/download/dotnet/10.0/runtime"><img src="https://img.shields.io/badge/.NET-10.0-512BD4?style=flat-square" alt=".NET Version"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Architecture-x64-lightgrey?style=flat-square" alt="Architecture">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">&nbsp;&nbsp;<a href="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/issues"><img src="https://img.shields.io/github/issues/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor?style=flat-square&color=orange" alt="Report Issues"></a>
+  <a href="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/releases"><img src="https://img.shields.io/github/v/release/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor?include_prereleases&style=flat-square&color=CD853F" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/blob/main/LICENSE"><img src="https://img.shields.io/badge/Editions-Free%20%7C%20Premium-green?style=flat-square" alt="License"></a>&nbsp;&nbsp;<a href="https://dotnet.microsoft.com/download/dotnet/10.0/runtime"><img src="https://img.shields.io/badge/.NET-10.0-512BD4?style=flat-square" alt=".NET Version"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Architecture-x64-lightgrey?style=flat-square" alt="Architecture">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">&nbsp;&nbsp;<a href="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/issues"><img src="https://img.shields.io/github/issues/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor?style=flat-square&color=orange" alt="Report Issues"></a>
 </p>
 
 **MetaEdit Plus** is a professional Windows metadata editor for audio and video collections. It combines direct field editing with reviewed batch operations, complete artwork collections, filename automation, provider-assisted identification, library analysis, import and export, ReplayGain measurement, lyrics, chapters, persistent indexes, and guarded studio jobs.
@@ -26,7 +26,9 @@
 - **Lyrics, Chapters, and Video Metadata:** Search and stage lyrics, edit supported chapter structures, and work with contextual video fields.
 - **Loudness and ReplayGain:** Measure decoded audio and stage ReplayGain 2 track and album values without normalizing or re-encoding it.
 - **Persistent Libraries and Layouts:** Index chosen folders locally, create reusable Library and editor layouts, and save field sets and container mappings.
+- **Delivery Check:** Check files against a delivery profile for a library, a release master, broadcast or an audiobook, and save the findings as a report.
 - **Studio Automation:** Run versioned dry-run, commit, watch-folder, and redacted-diagnostics jobs from `MetaEdit.Automation.exe`.
+- **Free and Premium:** The free edition is the complete editor. Premium applies the studio workflows and is described under [Editions](#editions).
 - **Local-First Privacy:** All editing works without an account. Optional cloud sync is off by default and covers portable tag preferences only.
 
 > **Looking for a specific workflow?** The complete feature reference below explains scope, staging, write safety, automation, supported formats, optional tools, and current boundaries.
@@ -43,6 +45,7 @@
    - [Recommended Requirements](#recommended-requirements)
 2. [Third-Party Libraries](#third-party-libraries)
 3. [Installation](#installation)
+4. [Editions](#editions)
 4. [Authentication, Cloud Sync, and Privacy](#authentication-cloud-sync-and-privacy)
 5. [Getting Started Guide](#getting-started-guide)
    - [Step 1: Open Media](#step-1-open-media)
@@ -78,6 +81,7 @@
 13. [Rule Studio](#rule-studio)
 14. [Clean & Organize](#clean--organize)
 15. [Library Integrity](#library-integrity)
+16. [Delivery Check](#delivery-check)
 16. [Advanced Media Tools](#advanced-media-tools)
     - [Artwork Collection Manager](#artwork-collection-manager)
     - [Custom and Format-Specific Fields](#custom-and-format-specific-fields)
@@ -147,10 +151,31 @@ When an optional tool is unavailable, MetaEdit keeps the dependent command disab
 
 ## **Installation**
 
-1. Open the [Releases](https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/releases) page.
+1. Open the [Releases](https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/releases) page.
 2. Download the Windows x64 installer published for the selected release.
 3. Run the installer and review the destination and optional components.
 4. Launch **MetaEdit Plus** from the Start Menu or Desktop shortcut.
+
+## **Editions**
+
+MetaEdit Plus has a free edition and a Premium edition in one installation. The free edition is a complete tag editor. Every Premium workflow opens, analyses and previews in the free edition; Premium is needed at the step where its result is applied.
+
+| Capability | Free | Premium |
+|---|---|---|
+| Batch and per-file editing, all fields, artwork collections, undo and change review | Included | Included |
+| Auto Tag for single files, Text Tools, filename converters, import and export, lyrics | Included | Included |
+| Library Health and duplicate review | Included | Included |
+| Auto Tag for whole releases (Batch Mode) | Identify and review | Stage results |
+| Rule Studio | Build and preview | Stage results |
+| Clean & Organize | Analyse and review | Commit the plan |
+| Delivery Check | Music library profile | All profiles and report |
+| ReplayGain loudness | Measure and review | Stage values |
+| Chapter Editor | Inspect and validate | Write chapters |
+| Container mapping profiles | Standard mapping | Own profiles |
+| Persistent libraries | One | Any number |
+| Studio Automation | Not included | Included |
+
+Premium is a one-time purchase in [Arctisoft Studio Hub](https://github.com/Arctisoft-Studio/Arctisoft-Studio-Hub) under **Store & Upgrades**. A license covers three computers at the same time. **Help > Edition & License** shows the edition of this computer and starts a free 14-day trial.
 
 ## **Authentication, Cloud Sync, and Privacy**
 
@@ -329,6 +354,19 @@ Library Health analyzes files without changing them. Findings cover readability,
 
 Excluding a finding changes only the review scope. It never deletes or quarantines media. Findings and exclusions can be exported.
 
+## **Delivery Check**
+
+Delivery Check reads the checked files without changing them and lists every finding against a delivery profile: missing identity, numbering and rights fields, the form of an ISRC, the size and shape of the cover, lossless format, sample rate and bit depth, and track positions used twice.
+
+| Profile | Checks | Edition |
+|---|---|---|
+| **Music library** | Title, artist, album, album artist, track number and total, year, genre, embedded cover | Free |
+| **Release master** | The library checks plus disc number, ISRC, label, copyright, a square cover of at least 3,000 px and lossless audio at 44.1 kHz / 16-bit or higher | Premium |
+| **Broadcast and licensing** | Title, artist, album, year, ISRC, composer, label, copyright | Premium |
+| **Audiobook** | Title, author, book title, running order, genre, a square cover of at least 2,400 px | Premium |
+
+The profiles state what MetaEdit checks. They do not certify a file for a distributor, broadcaster or store. With Premium the findings can be saved as a CSV report.
+
 ## **Advanced Media Tools**
 
 ### **Artwork Collection Manager**
@@ -404,7 +442,7 @@ Profile restore is validated and transactional. Credentials, account sessions, s
 
 ## **Studio Automation**
 
-`MetaEdit.Automation.exe` ships beside the desktop application for guarded studio-library jobs. New jobs are review-only: a write requires both `AllowCommit: true` in the reviewed job and an explicit `--commit` argument.
+`MetaEdit.Automation.exe` ships beside the desktop application for guarded studio-library jobs and is part of the Premium edition. New jobs are review-only: a write requires both `AllowCommit: true` in the reviewed job and an explicit `--commit` argument.
 
 ```powershell
 MetaEdit.Automation.exe init job.json C:\Incoming C:\Delivered C:\Reports studio-library-flac-v1
@@ -509,7 +547,7 @@ MetaEdit can check for updates independently of Arctisoft Studio Hub. In **Setti
 
 Version 2.0.0 is not Authenticode-signed. Windows may show an unknown-publisher warning or prevent it from running under stricter application-control settings. Download installers only from this official repository.
 
-You can always install a newer version manually from the official [Releases](https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/releases) page. Keep a profile backup and an independent media backup before major upgrades.
+You can always install a newer version manually from the official [Releases](https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/releases) page. Keep a profile backup and an independent media backup before major upgrades.
 
 ## **Copyright**
 
@@ -531,7 +569,7 @@ MetaEdit Plus is proprietary freeware and is protected by international copyrigh
 
 The application is fully usable without signing in. Arctisoft Studio Hub is an optional account and application manager. By using MetaEdit Plus, you agree to the terms in the [LICENSE](LICENSE).
 
-Report defects through [GitHub Issues](https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/issues). Questions and workflow discussions belong in [Discussions](https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/discussions).
+Report defects through [GitHub Issues](https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/issues). Questions and workflow discussions belong in [Discussions](https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/discussions).
 
 ## **Screenshots**
 
@@ -543,39 +581,39 @@ Preview MetaEdit Plus's interface and features before downloading. Note that fut
     <th>MetaEdit Plus - Auto Tag</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-01-editor.png"><img src="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-01-editor.png" alt="MetaEdit Plus Advanced Tag Editor" width="450"></a></td>
-    <td><a href="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-02-auto-tag.png"><img src="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-02-auto-tag.png" alt="MetaEdit Plus Auto Tag" width="450"></a></td>
+    <td><a href="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-01-editor.png"><img src="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-01-editor.png" alt="MetaEdit Plus Advanced Tag Editor" width="450"></a></td>
+    <td><a href="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-02-auto-tag.png"><img src="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-02-auto-tag.png" alt="MetaEdit Plus Auto Tag" width="450"></a></td>
   </tr>
   <tr>
     <th>MetaEdit Plus - Text Tools</th>
     <th>MetaEdit Plus - Clean & Organize</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-03-text-tools.png"><img src="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-03-text-tools.png" alt="MetaEdit Plus Text Tools" width="450"></a></td>
-    <td><a href="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-04-clean-organize.png"><img src="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-04-clean-organize.png" alt="MetaEdit Plus Clean & Organize" width="450"></a></td>
+    <td><a href="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-03-text-tools.png"><img src="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-03-text-tools.png" alt="MetaEdit Plus Text Tools" width="450"></a></td>
+    <td><a href="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-04-clean-organize.png"><img src="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-04-clean-organize.png" alt="MetaEdit Plus Clean & Organize" width="450"></a></td>
   </tr>
   <tr>
     <th>MetaEdit Plus - Library Health</th>
     <th>MetaEdit Plus - Lyrics Lookup</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-05-library-health.png"><img src="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-05-library-health.png" alt="MetaEdit Plus Library Health" width="450"></a></td>
-    <td><a href="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-06-lyrics.png"><img src="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-06-lyrics.png" alt="MetaEdit Plus Lyrics Lookup" width="450"></a></td>
+    <td><a href="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-05-library-health.png"><img src="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-05-library-health.png" alt="MetaEdit Plus Library Health" width="450"></a></td>
+    <td><a href="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-06-lyrics.png"><img src="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-06-lyrics.png" alt="MetaEdit Plus Lyrics Lookup" width="450"></a></td>
   </tr>
   <tr>
     <th>MetaEdit Plus - Artwork Collection</th>
     <th>MetaEdit Plus - ReplayGain Analysis</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-07-artwork-collection.png"><img src="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-07-artwork-collection.png" alt="MetaEdit Plus Artwork Collection" width="450"></a></td>
-    <td><a href="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-08-replaygain.png"><img src="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-08-replaygain.png" alt="MetaEdit Plus ReplayGain Analysis" width="450"></a></td>
+    <td><a href="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-07-artwork-collection.png"><img src="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-07-artwork-collection.png" alt="MetaEdit Plus Artwork Collection" width="450"></a></td>
+    <td><a href="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-08-replaygain.png"><img src="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-08-replaygain.png" alt="MetaEdit Plus ReplayGain Analysis" width="450"></a></td>
   </tr>
   <tr>
     <th>MetaEdit Plus - Change Review</th>
     <th>MetaEdit Plus - Command Center</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-09-change-review.png"><img src="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-09-change-review.png" alt="MetaEdit Plus Change Review" width="450"></a></td>
-    <td><a href="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-10-command-center.png"><img src="https://github.com/BerndHagen/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-10-command-center.png" alt="MetaEdit Plus Command Center" width="450"></a></td>
+    <td><a href="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-09-change-review.png"><img src="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-09-change-review.png" alt="MetaEdit Plus Change Review" width="450"></a></td>
+    <td><a href="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-10-command-center.png"><img src="https://github.com/Arctisoft-Studio/MetaEdit-Plus-Advanced-Tag-Editor/raw/main/images/showcase-10-command-center.png" alt="MetaEdit Plus Command Center" width="450"></a></td>
   </tr>
 </table>
