@@ -10,10 +10,11 @@ By accepting this agreement, you agree to all terms below.
 
 1. LICENSE GRANT
 
-Arctisoft Studio grants you a non-exclusive, non-transferable, royalty-free
+Arctisoft Studio grants you a non-exclusive
 license to install and use MetaEdit - Advanced Tag Editor ("Software") on
 any Windows computer you own or control, solely for personal or commercial
 purposes.
+Transfers are governed by section 4 and applicable law.
 
 
 2. PERMITTED USE
@@ -28,9 +29,11 @@ You may:
 
 3. RESTRICTIONS
 
-You may not:
+Except as expressly permitted above, by a component licence or by
+applicable law, you may not:
 
-  - Reverse engineer, decompile, or disassemble the Software.
+  - Reverse engineer, decompile, or disassemble the proprietary application,
+    except where applicable law or a component licence permits it.
   - Redistribute, sell, rent, or sublicense the Software without written
     permission from Arctisoft Studio.
   - Remove or alter any copyright, trademark, or proprietary notices.
@@ -43,6 +46,14 @@ MetaEdit can be installed and used free of charge. The Premium
 edition adds the applying step of the studio workflows, further
 delivery profiles and command-line automation, as the edition table
 shows, and requires the purchase of a Premium license key.
+
+Premium costs EUR 29.99 as a one-time purchase, without a mandatory
+subscription. The licence covers the application major versions specified
+by its entitlement. A higher maximum major includes earlier supported
+majors; it is not a requirement that the installed version have that exact
+major number. Later major upgrades require separate rights unless included
+in the licence. The purchase terms and granted entitlement take precedence
+over a general version example.
 
 A Premium license key is personal to one person:
 
@@ -83,25 +94,22 @@ Cloud Settings Sync (optional and disabled by default):
   Arctisoft licensing service so active licensed devices can be managed.
 
 Auto-Tag Feature (opt-in per lookup):
-  When you trigger an automatic metadata lookup, the following external
-  services are contacted:
+  Local catalogue/reference searches and acoustic fingerprints are processed
+  on your computer. Media and fingerprints are not uploaded for identification.
+  If Wikidata is enabled, your search terms are sent to www.wikidata.org to
+  retrieve CC0 structured entity data. The provider sees ordinary request
+  information, including your IP address and the application User-Agent.
+  Optional catalogue downloads contact data.metabrainz.org (CC0 MusicBrainz
+  core) or data.acoustid.org (eligible public data), as described in the data
+  manager. Arctisoft Studio does not host a metadata identification server.
 
-  - AcoustID (acoustid.org) - audio fingerprint identification
-  - MusicBrainz (musicbrainz.org) - music metadata database
-  - Discogs (discogs.com) - release metadata when you provide a Discogs token
-  - iTunes Search API (apple.com) - cover art and metadata
-
-  A short audio fingerprint of the selected file is transmitted solely
-  for identification. No audio data is stored beyond the request.
-
-Cover Art Search (opt-in per search):
-  Your search query (artist name, album name) is sent to MusicBrainz
-  and Cover Art Archive for album artwork lookup. No other data is
-  transmitted.
-
-Lyrics Lookup (opt-in per search):
-  Track title, artist, and album search terms are sent to LRCLIB (lrclib.net)
-  to retrieve synchronized or plain-text lyrics.
+Artwork and Lyrics:
+  Local references and imported artwork/lyrics are processed on your computer.
+  Optional Commons artwork requests contact commons.wikimedia.org and
+  upload.wikimedia.org. MetaEdit accepts explicit CC0 image licences for
+  automatic online acquisition. It does not assume that a metadata database
+  licence grants rights to cover art or lyrics. You must be entitled to use
+  images, lyrics and reference recordings that you supply.
 
 Software Updates:
   MetaEdit can check its public GitHub release feed for updates. These
@@ -119,18 +127,29 @@ Data Retention:
 
 6. INTELLECTUAL PROPERTY
 
-The Software and all documentation are owned by Arctisoft Studio.
+The proprietary application and original documentation are owned by
+Arctisoft Studio. Third-party components and data retain their owners and
+licences.
 All rights not expressly granted herein are reserved.
 
 
 7. THIRD-PARTY COMPONENTS
 
-MetaEdit includes open-source components, including TagLibSharp, ATL,
-NAudio, NVorbis, Microsoft.Data.Sqlite and SQLitePCLRaw, Ude.NetStandard,
-Lucide, and Chromaprint/fpcalc. Component versions, license identifiers,
-copyright notices, and upstream project links are listed in
-THIRD-PARTY-NOTICES.txt in the installation directory. Additional license
-files supplied with individual components are preserved with the application.
+MetaEdit includes open-source components, including TagLibSharp (LGPL-2.1),
+ATL, NAudio, NVorbis, Microsoft.Data.Sqlite/SQLitePCLRaw, Ude.NetStandard
+(MPL-1.1 option), SharpZipLib, Lucide and Chromaprint/KissFFT. Component
+versions and copyright notices are listed in THIRD-PARTY-NOTICES.txt.
+Full licence texts and corresponding library sources/build instructions
+are provided under ThirdParty in the installation and portable package.
+The shipped Chromaprint build excludes FFmpeg codec libraries and the
+upstream FFmpeg resampler. Optional separately installed decoders remain
+subject to their own licences and any applicable codec rights.
+
+Nothing in this EULA limits rights granted by an applicable open-source
+licence. Those licences prevail for their components. You may modify and
+replace those components and reverse engineer/debug the application to
+exercise rights granted by the LGPL or other applicable law/licences.
+No requirement to keep a third-party component unmodified is imposed.
 
 
 8. PAYMENT AND REFUNDS

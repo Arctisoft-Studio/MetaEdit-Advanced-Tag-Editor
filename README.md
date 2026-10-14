@@ -16,7 +16,7 @@
 
 ## Overview
 
-MetaEdit is a metadata workstation for audio and video files. It edits one file or thousands, shows every change for review before it is written, and keeps a complete undo history, artwork included. Persistent libraries index the folders you choose, Auto Tag identifies releases from online sources, and rules, delivery checks and automation keep a collection consistent over time.
+MetaEdit is a metadata workstation for audio and video files. It edits one file or thousands, shows every change for review before it is written, and keeps a complete undo history, artwork included. Persistent libraries index the folders you choose, Auto Tag identifies recordings and releases from eligible catalogue data and references, and rules, delivery checks and automation keep a collection consistent over time.
 
 ### Editing
 
@@ -27,7 +27,8 @@ MetaEdit is a metadata workstation for audio and video files. It edits one file 
 
 ### Tagging and organisation
 
-- Auto Tag from MusicBrainz, AcoustID fingerprints, Discogs and iTunes, with covers from the Cover Art Archive and lyrics from LRCLIB
+- Auto Tag with acoustic matching, trusted references, MusicBrainz CC0 core facts and optional Wikidata structured metadata; exact release mapping and field-by-field review
+- Artwork from your embedded/sidecar/reference images and verified CC0 Commons images; lyrics from embedded text, matching sidecars and indexed references
 - Tags from filenames, filenames from tags, text tools, and CSV, JSON, HTML and playlist interchange
 - Rule Studio with conditions, actions and format expressions, and Clean & Organize with rollback protection
 
@@ -59,7 +60,7 @@ Basic is a complete tag editor. Every Premium workflow opens and previews in Bas
 
 - **One-time purchase.** No subscription and no renewal. Prices are final; Arctisoft Studio is a small business under the Austrian small-business rule and charges no VAT.
 - **Three computers.** One license is for one person and works on up to three computers at the same time. Premium keeps working offline for 30 days at a time.
-- **Updates included** for MetaEdit 2.
+- **Version rights.** Your entitlement states the covered maximum major version, including earlier supported majors. Later major upgrades require separate rights unless included in your licence.
 - **Try before you buy.** Signed in, you can use Premium for 14 days on one computer, without payment details. MetaEdit offers it under Help → Edition & License, and wherever a Premium step is reached.
 - **14-day refund** in full, without giving a reason.
 - **Transferable** to another Arctisoft account from 30 days after purchase, once in 12 months.
@@ -74,7 +75,8 @@ Premium is purchased in [Studio Hub](https://github.com/Arctisoft-Studio/Arctiso
 |:--|:--|
 | **Operating system** | Windows 10 or Windows 11, 64-bit |
 | **Runtime** | Included with the installer; nothing else to install |
-| **Internet connection** | Only for Auto Tag, lyrics and cover search, signing in and updates. Files are edited on your computer. |
+| **Internet connection** | Optional Wikidata/CC0 artwork lookup, public data downloads, signing in and updates. Reference/catalogue searches, fingerprints and local lyrics work on your computer. |
+| **Identification data** | Worldwide core data and broader acoustic coverage are optional downloads and need substantial disk space. Your reference library can be indexed without them. |
 
 ## Installation and updates
 
@@ -86,7 +88,15 @@ Updates are taken only from this repository's official releases. Before an updat
 
 ## Account and privacy
 
-Your files are read and written on your computer. Online lookups send a source what it needs to find a match, such as an audio fingerprint or the release you search for. MetaEdit works without an account; signing in adds Premium, the trial and optional preference sync. A Discogs token, if you add one, is kept in Windows Credential Manager.
+Your files are read and written on your computer. Audio and fingerprints are not uploaded for identification. Optional Wikidata lookup sends your search terms; catalogue downloads and verified CC0 artwork requests contact their public hosts. MetaEdit works without an account; signing in adds Premium, the trial and optional preference sync.
+
+### Identification in MetaEdit 2
+
+Catalogue & References lets you index trusted recordings and install reusable identification data. MusicBrainz's [CC0 core](https://musicbrainz.org/doc/MusicBrainz_Database) provides worldwide recording, release, track-list and credit facts. Search runs locally; supplementary noncommercial tags, genre associations and search indexes are excluded. [Wikidata structured facts](https://www.wikidata.org/wiki/Wikidata:Licensing) can provide eligible online metadata.
+
+Acoustic identification compares compatible fingerprints with your indexed references and optional [AcoustID public data](https://acoustid.org/database), without using its commercial lookup API. One downloaded month provides partial coverage; historical data extends it and can be large. Fingerprint data is CC-BY-SA-3.0, with public-domain recording mappings. Anyone sharing an adapted fingerprint database must retain applicable attribution and share-alike rights. Metadata facts do not grant copyright permissions for cover images or lyrics; use local content you are entitled to use.
+
+Full third-party licence texts, required library sources and replacement/build instructions accompany the application. Open-source rights remain available for their components; MetaEdit application source remains proprietary. These source changes describe the forthcoming qualified MetaEdit 2 release.
 
 ## Support
 
