@@ -1,0 +1,220 @@
+MetaEdit - Advanced Tag Editor
+End User License Agreement (EULA)
+
+Copyright (c) 2025-2026 Arctisoft Studio / Bernd Julian Hagen
+All rights reserved.
+
+Please read this agreement carefully before installing or using the
+software. By accepting this agreement, you agree to all terms below. This
+agreement summarizes, for this application, the Arctisoft Studio License
+Agreement, Terms of Service and Privacy Policy at
+https://arctisoft-studio.com/legal; where they go further, those documents
+apply.
+
+1. LICENSE GRANT
+
+Arctisoft Studio grants you a non-exclusive, non-transferable,
+royalty-free license to install and use MetaEdit - Advanced Tag Editor
+("Software") on any Windows computer you own or control, for personal and
+commercial purposes.
+
+2. PERMITTED USE
+
+You may:
+
+  - Install the Software on an unlimited number of your own computers.
+  - Use the Software to read and write metadata of audio and video files,
+    for personal and commercial purposes.
+  - Make backup copies of the installer for personal archival purposes.
+  - Distribute the original, unmodified installer for promotional
+    purposes.
+
+3. RESTRICTIONS
+
+You may not:
+
+  - Reverse engineer, decompile, or disassemble the Software, except to
+    the extent that applicable law permits it, or that the license of an
+    open-source component listed in section 7 permits it for that
+    component.
+  - Redistribute, sell, rent, or sublicense the Software without written
+    permission from Arctisoft Studio, except for the unmodified installer
+    as permitted above.
+  - Circumvent or interfere with the license check of the Premium edition.
+  - Remove or alter any copyright, trademark, or proprietary notices.
+  - Use the Software for any purpose that violates applicable law.
+
+4. EDITIONS AND LICENSE KEY
+
+MetaEdit can be installed and used free of charge. The Premium edition
+adds the applying step of the studio workflows, further delivery profiles
+and command-line automation, as the edition table in Help > License shows.
+A 14-day trial is available once per computer.
+
+A Premium license key is personal to one person:
+
+  - A key may be used on up to 3 computers at the same time. You can
+    release a computer in Arctisoft Studio Hub to use the license on
+    another one. A computer that has not used the license for 45 days is
+    released automatically.
+  - Sharing, publishing or distributing your license key is prohibited.
+  - A license may be passed on only as a whole, using the transfer
+    function in Arctisoft Studio Hub. After a transfer you may no longer
+    use it.
+  - Keys that are misused or obtained by fraud may be deactivated.
+
+A Premium license covers the major version it was sold for and every
+update within it.
+
+The computers using a license are recorded solely to apply these limits,
+not to track individual user activity.
+
+5. DATA PROCESSING AND PRIVACY
+
+Controller: Arctisoft Studio / Bernd Julian Hagen, Austria,
+support@arctisoft-studio.com. The Privacy Policy at
+https://arctisoft-studio.com/legal/privacy explains your rights under the
+GDPR, retention periods and how to complain to a supervisory authority.
+
+Account and license (when you sign in through Arctisoft Studio Hub):
+
+  - Your account email, your license records and, if you upload one in
+    Arctisoft Studio Hub, your profile image.
+  - For each computer that uses a license or starts a trial: its name, a
+    one-way digest of the Windows installation's identifier, a one-way
+    digest of the hardware identifier its firmware reports, and the IP
+    address at registration. They apply the limit of three computers and
+    one trial per computer (Art. 6(1)(b) and (f) GDPR).
+
+Settings sync (optional, off until you turn it on):
+
+When you turn on sync in Settings while signed in, MetaEdit stores these
+preferences with your account (Art. 6(1)(b) GDPR): ID3 version and text
+encoding, tag-container preservation, artwork conversion, quality, size
+and picture type, and the enabled Auto Tag sources.
+
+Connected features (only when you use them):
+
+  - Auto Tag: album and artist, the folder name, track titles, performers
+    and track lengths are sent to the Arctisoft metadata catalogue (on
+    Supabase, EU) to identify the release. The catalogue is built from
+    MusicBrainz and Discogs data released under CC0.
+  - Artwork search: the identifier of the release is sent to the Cover Art
+    Archive (Internet Archive). Artwork remains copyrighted by its rights
+    holders.
+  - Lyrics lookup: track title, artist and album are sent to LRCLIB
+    (lrclib.net), a community database. Lyrics remain the property of
+    their rights holders; see section 9.
+
+Software updates:
+
+The Software can check Arctisoft Studio's public release feed on GitHub
+for updates. These requests carry normal network information and the
+application's version, never your files.
+
+No audio content, file paths or metadata leave your computer except the
+search terms of a connected feature you start. The Software has no
+analytics or telemetry. Cloud data and your account can be deleted in
+Arctisoft Studio Hub (Account & Security) or by contacting support.
+Uninstalling the Software keeps your files and local application data and
+does not delete your Arctisoft account.
+
+6. INTELLECTUAL PROPERTY
+
+The Software and its documentation are owned by Arctisoft Studio. All
+rights not expressly granted herein are reserved.
+
+7. THIRD-PARTY COMPONENTS
+
+MetaEdit includes open-source components under their own licenses,
+including TagLib#, ATL, Ude.NetStandard, NAudio, NVorbis,
+Microsoft.Data.Sqlite, SQLitePCLRaw and SQLite, Lucide and Chromaprint
+(fpcalc).
+
+THIRD-PARTY-NOTICES.txt in the installation folder lists every component
+with its version, license, copyright notice and project address; the
+license texts are installed with it. The installer uses the Inter and
+Cormorant Garamond typefaces under the SIL Open Font License 1.1. Nothing
+in this agreement limits the rights those licenses grant for their
+components.
+
+TagLib#, Ude.NetStandard and Chromaprint (fpcalc) are used under the GNU
+Lesser General Public License 2.1. They are separate files that MetaEdit
+loads or runs; you may replace them with modified versions, and their
+source code is available as THIRD-PARTY-NOTICES.txt describes.
+
+8. PAYMENT AND REFUNDS
+
+Payments are processed securely through Stripe. Arctisoft Studio does not
+store any payment card information.
+
+  - License keys are delivered by email after purchase. If your purchase
+    email matches your Arctisoft account, the license is linked
+    automatically.
+  - 14-day money-back guarantee: you may ask for a full refund of a
+    Premium license within 14 days of purchase, without giving a reason.
+    The license ends when the refund is issued.
+  - Statutory consumer rights remain unaffected.
+  - For purchase, refund or license delivery questions, contact
+    support@arctisoft-studio.com.
+
+9. YOUR RESPONSIBILITIES
+
+When using MetaEdit, you are responsible for:
+
+  - Ensuring you have the legal right to edit the files and their
+    metadata.
+  - The artwork and lyrics you choose to add to your files: they come from
+    third-party sources, are copyrighted by their rights holders, and
+    MetaEdit grants no right to use them beyond what the law permits you.
+  - Complying with all applicable copyright and intellectual property
+    laws.
+
+MetaEdit is a technical tool for metadata editing. It does not filter,
+restrict, or judge content.
+
+10. DISCLAIMER OF WARRANTIES
+
+To the extent permitted by applicable law, the Software is provided "as
+is" without warranty of any kind, express or implied, including but not
+limited to warranties of merchantability, fitness for a particular
+purpose, or non-infringement. The entire risk as to the quality and
+performance of the Software is with you. Nothing in this agreement
+excludes mandatory consumer guarantees or other statutory rights,
+including those under Directive (EU) 2019/770.
+
+11. LIMITATION OF LIABILITY
+
+To the maximum extent permitted by applicable law, Arctisoft Studio shall
+not be liable for any indirect, incidental, special, exemplary, or
+consequential damages (including but not limited to loss of data, loss of
+profits, or business interruption) arising from the use of or inability to
+use the Software, even if advised of the possibility. Liability for
+intent, gross negligence and personal injury, and any liability that
+cannot be excluded by law, remains unaffected.
+
+12. LICENSE TERMINATION
+
+Arctisoft Studio may terminate your license if you:
+
+  - Violate any terms of this agreement.
+  - Share or distribute your license key.
+  - Use the Software for illegal purposes.
+
+Upon termination, you must stop using the Software and delete all copies.
+
+13. GOVERNING LAW
+
+This Agreement is governed by the laws of Austria. Any dispute arising out
+of or in connection with this Agreement shall be subject to the exclusive
+jurisdiction of the competent courts in Austria, subject to mandatory
+consumer protections and jurisdiction rights that apply to you.
+
+14. CONTACT
+
+Arctisoft Studio / Bernd Julian Hagen
+Email:   support@arctisoft-studio.com
+Website: https://arctisoft-studio.com
+
+By selecting "I accept the license agreement" you confirm that you have
+read, understood, and agree to be bound by the terms of this EULA.
