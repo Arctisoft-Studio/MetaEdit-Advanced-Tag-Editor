@@ -1,28 +1,30 @@
 <p align="center">
-  <img src="assets/branding/metaedit-icon.png" alt="MetaEdit" width="96" height="96">
+  <img src="assets/branding/notalis-icon.png" alt="Notalis" width="96" height="96">
 </p>
 
-<h1 align="center">MetaEdit</h1>
+<h1 align="center">Notalis</h1>
 
 <p align="center"><strong>Advanced Tag Editor for Windows</strong></p>
 
 <p align="center">Metadata, artwork and library care for audio and video collections.</p>
 
 <p align="center">
-  <a href="https://github.com/Arctisoft-Studio/MetaEdit-Advanced-Tag-Editor/releases/latest"><strong>Download</strong></a> ·
-  <a href="https://arctisoft-studio.com/software/metaedit/">Product website</a> ·
+  <a href="https://github.com/Arctisoft-Studio/Notalis-Advanced-Tag-Editor/releases/latest"><strong>Download</strong></a> ·
+  <a href="https://arctisoft-studio.com/software/notalis/">Product website</a> ·
   <a href="https://arctisoft-studio.com/pricing/">Editions &amp; pricing</a> ·
-  <a href="https://github.com/Arctisoft-Studio/MetaEdit-Advanced-Tag-Editor/releases">Release notes</a> ·
+  <a href="https://github.com/Arctisoft-Studio/Notalis-Advanced-Tag-Editor/releases">Release notes</a> ·
   <a href="https://arctisoft-studio.com/support/">Support</a>
 </p>
 
 <br>
 
-[![MetaEdit with the file library, metadata editor, embedded artwork and a staged change](assets/screenshots/metaedit-editor.png)](https://arctisoft-studio.com/software/metaedit/)
+[![Notalis with the file library, metadata editor, embedded artwork and a staged change](assets/screenshots/notalis-editor.png)](https://arctisoft-studio.com/software/notalis/)
 
-<p align="center"><sub>The metadata editor with a staged change, comparing staged and on-disk values for a fictional demonstration library. More views in the <a href="https://arctisoft-studio.com/software/metaedit/">product gallery</a>.</sub></p>
+<p align="center"><sub>The metadata editor with a staged change, comparing staged and on-disk values for a fictional demonstration library. More views in the <a href="https://arctisoft-studio.com/software/notalis/">product gallery</a>.</sub></p>
 
-MetaEdit is the metadata editor of Arctisoft Studio. Correct individual files, tag whole albums, manage embedded artwork, identify releases and keep large libraries consistent with reusable rules. Every change is staged first: you compare the proposed values with the tags on disk before anything is written, and undo and saved workflow recovery remain available afterwards.
+> **MetaEdit is now Notalis.** From version 3 the tag editor is named Notalis. Updating from MetaEdit or MetaEdit Plus keeps your settings, libraries, rules, scheduled jobs and license, and files tagged with MetaEdit open unchanged.
+
+Notalis is the metadata editor of Arctisoft Studio. Correct individual files, tag whole albums, manage embedded artwork, identify releases and keep large libraries consistent with reusable rules. Every change is staged first: you compare the proposed values with the tags on disk before anything is written, and undo and saved workflow recovery remain available afterwards.
 
 ## Capabilities
 
@@ -76,15 +78,17 @@ Premium is a one-time purchase for one person, covering the licensed major versi
 | Audio | MP3, FLAC, WAV, AIFF, Ogg Vorbis, Opus, AAC, M4A/M4B, WMA, APE, WavPack, DSF |
 | Video | MP4, MKV, MOV, WMV, M4V, WebM |
 
-Available fields, artwork and chapter operations depend on the container. Some playback, analysis and container operations use additional media tools; MetaEdit tells you when one is needed.
+Available fields, artwork and chapter operations depend on the container. Some playback, analysis and container operations use additional media tools; Notalis tells you when one is needed.
 
 ## Installation and updates
 
-1. Download `v<version>-metaedit.exe` from the [latest release](https://github.com/Arctisoft-Studio/MetaEdit-Advanced-Tag-Editor/releases/latest).
+1. Download `v<version>-notalis.exe` from the [latest release](https://github.com/Arctisoft-Studio/Notalis-Advanced-Tag-Editor/releases/latest).
 2. Run the installer and accept the license agreement. Setup can also install [Arctisoft Studio Hub](https://github.com/Arctisoft-Studio/Arctisoft-Studio-Hub).
-3. Start MetaEdit. Sign in through Studio Hub for Auto Tag, Premium or the trial.
+3. Start Notalis. Sign in through Studio Hub for Auto Tag, Premium or the trial.
 
-MetaEdit checks this repository for updates and installs a new version only after verifying it against the SHA-256 checksum GitHub publishes for the release. Studio Hub can install and update the whole Arctisoft collection from one place.
+Notalis checks this repository for updates and installs a new version only after verifying it against the SHA-256 checksum GitHub publishes for the release. Studio Hub can install and update the whole Arctisoft collection from one place.
+
+MetaEdit and MetaEdit Plus do not update themselves to Notalis. Run the Notalis installer, or update through Studio Hub: Setup renames the existing installation and carries everything over.
 
 ## Accounts and privacy
 
@@ -92,11 +96,11 @@ Local metadata editing does not require an account. Auto Tag sends search text �
 
 ## Support
 
-Open the user guide from **Help**, visit [Arctisoft Support](https://arctisoft-studio.com/support/) or write to [support@arctisoft-studio.com](mailto:support@arctisoft-studio.com). Report reproducible problems and suggest improvements through [GitHub Issues](https://github.com/Arctisoft-Studio/MetaEdit-Advanced-Tag-Editor/issues). Please keep license keys, account details and personal files out of public reports.
+Open the user guide from **Help**, visit [Arctisoft Support](https://arctisoft-studio.com/support/) or write to [support@arctisoft-studio.com](mailto:support@arctisoft-studio.com). Report reproducible problems and suggest improvements through [GitHub Issues](https://github.com/Arctisoft-Studio/Notalis-Advanced-Tag-Editor/issues). Please keep license keys, account details and personal files out of public reports.
 
 ## License
 
-MetaEdit is proprietary commercial software. This repository holds its public documentation and official releases; the source code is not published. Use is governed by the [MetaEdit EULA](LICENSE), the [Arctisoft Studio License Agreement](https://arctisoft-studio.com/legal/license/) and the [Terms of Service](https://arctisoft-studio.com/legal/terms/). Open-source components are listed with their licenses in the third-party notices installed with MetaEdit. Artwork and lyrics remain subject to their rights holders' permissions.
+Notalis is proprietary commercial software. This repository holds its public documentation and official releases; the source code is not published. Use is governed by the [Notalis EULA](LICENSE), the [Arctisoft Studio License Agreement](https://arctisoft-studio.com/legal/license/) and the [Terms of Service](https://arctisoft-studio.com/legal/terms/). Open-source components are listed with their licenses in the third-party notices installed with Notalis. Artwork and lyrics remain subject to their rights holders' permissions.
 
 ---
 

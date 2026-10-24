@@ -1,4 +1,4 @@
-MetaEdit - Advanced Tag Editor
+Notalis - Advanced Tag Editor
 End User License Agreement (EULA)
 
 Copyright (c) 2025-2026 Arctisoft Studio / Bernd Julian Hagen
@@ -14,7 +14,7 @@ apply.
 1. LICENSE GRANT
 
 Arctisoft Studio grants you a non-exclusive, non-transferable,
-royalty-free license to install and use MetaEdit - Advanced Tag Editor
+royalty-free license to install and use Notalis - Advanced Tag Editor
 ("Software") on any Windows computer you own or control, for personal and
 commercial purposes.
 
@@ -46,7 +46,7 @@ You may not:
 
 4. EDITIONS AND LICENSE KEY
 
-MetaEdit can be installed and used free of charge. The Premium edition
+Notalis can be installed and used free of charge. The Premium edition
 adds the applying step of the studio workflows, further delivery profiles
 and command-line automation, as the edition table in Help > License shows.
 A 14-day trial is available once per computer.
@@ -88,7 +88,7 @@ Account and license (when you sign in through Arctisoft Studio Hub):
 
 Settings sync (optional, off until you turn it on):
 
-When you turn on sync in Settings while signed in, MetaEdit stores these
+When you turn on sync in Settings while signed in, Notalis stores these
 preferences with your account (Art. 6(1)(b) GDPR): ID3 version and text
 encoding, tag-container preservation, artwork conversion, quality, size
 and picture type, and the enabled Auto Tag sources.
@@ -126,7 +126,7 @@ rights not expressly granted herein are reserved.
 
 7. THIRD-PARTY COMPONENTS
 
-MetaEdit includes open-source components under their own licenses,
+Notalis includes open-source components under their own licenses,
 including TagLib#, ATL, Ude.NetStandard, NAudio, NVorbis,
 Microsoft.Data.Sqlite, SQLitePCLRaw and SQLite, Lucide and Chromaprint
 (fpcalc).
@@ -139,7 +139,7 @@ in this agreement limits the rights those licenses grant for their
 components.
 
 TagLib#, Ude.NetStandard and Chromaprint (fpcalc) are used under the GNU
-Lesser General Public License 2.1. They are separate files that MetaEdit
+Lesser General Public License 2.1. They are separate files that Notalis
 loads or runs; you may replace them with modified versions, and their
 source code is available as THIRD-PARTY-NOTICES.txt describes.
 
@@ -160,17 +160,17 @@ store any payment card information.
 
 9. YOUR RESPONSIBILITIES
 
-When using MetaEdit, you are responsible for:
+When using Notalis, you are responsible for:
 
   - Ensuring you have the legal right to edit the files and their
     metadata.
   - The artwork and lyrics you choose to add to your files: they come from
     third-party sources, are copyrighted by their rights holders, and
-    MetaEdit grants no right to use them beyond what the law permits you.
+    Notalis grants no right to use them beyond what the law permits you.
   - Complying with all applicable copyright and intellectual property
     laws.
 
-MetaEdit is a technical tool for metadata editing. It does not filter,
+Notalis is a technical tool for metadata editing. It does not filter,
 restrict, or judge content.
 
 10. DISCLAIMER OF WARRANTIES
