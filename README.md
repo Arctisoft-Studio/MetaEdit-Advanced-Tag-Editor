@@ -22,8 +22,6 @@
 
 <p align="center"><sub>The metadata editor with a staged change, comparing staged and on-disk values for a fictional demonstration library. More views in the <a href="https://arctisoft-studio.com/software/notalis/">product gallery</a>.</sub></p>
 
-> **MetaEdit is now Notalis.** From version 3 the tag editor is named Notalis. Updating from MetaEdit or MetaEdit Plus keeps your settings, libraries, rules, scheduled jobs and license, and files tagged with MetaEdit open unchanged.
-
 Notalis is the metadata editor of Arctisoft Studio. Correct individual files, tag whole albums, manage embedded artwork, identify releases and keep large libraries consistent with reusable rules. Every change is staged first: you compare the proposed values with the tags on disk before anything is written, and undo and saved workflow recovery remain available afterwards.
 
 ## Capabilities
@@ -88,7 +86,7 @@ Available fields, artwork and chapter operations depend on the container. Some p
 
 Notalis checks this repository for updates and installs a new version only after verifying it against the SHA-256 checksum GitHub publishes for the release. Studio Hub can install and update the whole Arctisoft collection from one place.
 
-MetaEdit and MetaEdit Plus do not update themselves to Notalis. Run the Notalis installer, or update through Studio Hub: Setup renames the existing installation and carries everything over.
+Updating an earlier version with the installer or Studio Hub keeps your settings, libraries, rules, scheduled jobs and license.
 
 ## Accounts and privacy
 
